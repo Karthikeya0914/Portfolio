@@ -1,0 +1,216 @@
+body{
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin: 10%;
+   
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* nav buttons */
+.navbar{
+    text-decoration: none;
+    float: right;
+    font-size: 28px;
+    width: 60%;
+}
+nav a {
+    background-color: rgba(16, 17, 16, 0.6);
+    color: #dfc6c6; /* Black */
+    display: inline-block;
+    padding: 5px;
+    margin: 2%; 
+    text-decoration:burlywood; 
+    border-radius: 6px; 
+}
+nav>a:hover {
+    background-color: #80715e;
+    color: white;
+    animation-delay: 1s;
+    animation: forwards;
+    text-decoration: none;
+   
+  }
+  nav{
+    float: right;
+    width:70%;
+  }
+
+/* intro */
+#name{
+    float: right;
+    margin: 5%;;
+    align-items: right;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+u{
+    color: red;
+}
+
+/* image */
+img{
+    align-items: left;
+    border-radius: 50% 20% 50% 20%;
+    height: 5%;
+}
+
+/* About */
+.about{
+    margin: 15px;
+
+
+}
+#abt{
+    font-size: 100px;
+    text-align: center;
+    color: antiquewhite;
+    margin: 15%;
+}
+.content{
+    float: left;
+    margin-top: 2%;
+    margin: 5%;
+    align-items: left;
+    justify-content: left;
+    font-size: 30px;
+    line-height: 80px;
+    font-family: serif;
+    color: rgb(228, 222, 222);
+    
+}
+#anotherpic{
+    align-items: right;
+    border-radius: 50% 20% 50% 20%;
+    height: 10%;
+    
+    
+    margin-top: 11%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    
+}
+/* Skills */
+#skl{
+   font-size: 60px;
+    margin:40px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.skills1{
+    width: 100%;
+    height: 70%;
+    border-radius: 0%;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: inline;
+}
+
+/* Experience
+#experience{
+    float: left;
+    justify-content: left;
+    font-size: 250%;
+    width: 40%;
+}
+.company{
+    float: right;
+    justify-content: right;
+    font-size: 180%;
+    width: 40%;
+}
+.exp{
+    width: 90%;
+}
+
+/* Project */
+/* .proj{
+    width: 90%;
+}
+#project{
+    float: left;
+    justify-content: left;
+    font-size: 250%;
+}
+#discription{
+    float: right;
+    justify-content: right;
+    font-size: 150%;   
+}
+#section6{
+    display: block;
+}  */ 
+
+/* logo */
+#jslogo{
+    border-radius: 0%;
+}
+#skill2{
+    width: 90%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    margin-top: 5px;
+    margin-right: 35px;
+    /* padding: 80px; */
+}
+#skill3{
+   width: 70%;
+   display: flex;
+}
+#htmllogo{
+    padding: 4%;
+}
+#csslogo{
+    padding: 4%;
+}
+#jslogo{
+    padding: 4%;
+}
+#pythonlogo{
+    /* padding: 4%; */
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: 0%;
+}
+#javalogo{
+    /* padding: 4%; */
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0%;
+
+}
+
+/* Certifications */
+.cert{
+    margin:10%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+#certificates{
+    font-size: 35px;
+    text-decoration: dotted;
+    line-height: 240%
+    ;
+}
+/* footer */
+
+/* Resume */
+#resume{
+    color: beige;
+    text-align: center;
+    font-size: 50px;
+
+}
+.resume{
+    justify-content: center;
+    display: flex;
+}
